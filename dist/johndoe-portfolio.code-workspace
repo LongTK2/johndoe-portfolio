@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../projects/onepay/paygate/paygate-upos-installment"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "johndoe-portfolio"
+	}
+}

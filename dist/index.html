@@ -4,32 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <base href="">
   <script src="https://kit.fontawesome.com/a489e0e418.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="translate/lang-en.js"></script>
+  <script type="text/javascript" src="translate/lang-vi.js"></script>
+  <script type="text/javascript" src="js/translateService.js"></script>
+  <script type="text/javascript" src="js/service.js"></script>
+
+
   <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-  <title>John Doe | UI/UX Designer & Photographer</title>
+
+  <title>Đăng Thị Thanh Huyền | PSG / Giảng Viên</title>
 </head>
 <body>
   <!-- Header -->
   <header id="header-home">
     <div class="container">
-      <nav id="main-nav">
+      <nav id="main-nav" class="sticky">
         <img src="img/logo.png" alt="logo" id="logo">
         <ul>
-          <li><a href="index.html" class="current">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="work.html">Work</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a class="e-translate" alt-trans="home_menu" href="index.html">home_menu</a></li>
+          <li><a class="e-translate" alt-trans="about_menu" href="about.html">about_menu</a></li>
+          <li><a class="e-translate" alt-trans="work_menu" href="work.html">work_menu</a></li>
+          <li><a class="e-translate" alt-trans="contact_menu" href="contact.html">contact_menu</a></li>
         </ul>
       </nav>
 
       <div class="header-content">
-        <h1>I Am John, The <span class="txt-type" data-wait="3000" data-words='["Photographer", "Designer", "UI/UX Dev"]'></span></h1>
-        <p class="lead">I specialize in graphic design, UI/UX and photography</p>
-        <a href="work.html" class="btn-light">View My Work</a>
+        <!-- , <span class="txt-type" data-wait="3000" data-words='["kiêm Phó Giáo Sư", "Giảng viên", "Cố vấn"]'></span> -->
+        <h1>Đặng Thị Thanh Huyền</h1>
+        <p class="lead">Phó Giáo sư - Giảng viên - Cố vấn - Nhà sáng lập</p>
+        <a href="work.html" class="btn-light">Theo dõi thêm về công việc của tôi</a>
       </div>
     </div>
   </header>
+
+  <div id="mobile-menu" class="mobile-menu">
+    ABC
+    <i class="fas fa-bars"></i>
+  </div>
+
+  <!-- Sidebar menu -->
+  <nav id="sidebar-menu" class="sidebar-menu">
+    <ul>
+      <li><a class="e-translate" alt-trans="home_menu" href="index.html">home_menu</a></li>
+      <li><a class="e-translate" alt-trans="about_menu" href="about.html">about_menu</a></li>
+      <li><a class="e-translate" alt-trans="work_menu" href="work.html">work_menu</a></li>
+      <li><a class="e-translate" alt-trans="contact_menu" href="contact.html">contact_menu</a></li>
+    </ul>
+  </nav>
 
   <!-- Section A: Specialize -->
   <section id="home-a" class="text-center py-2">
@@ -147,7 +174,7 @@
   <!-- Footer -->
   <footer id="main-footer">
     <div class="footer-content container">
-      <p>Copyright &copy; 2019. All Rights Reserved.</p>
+      <p>Copyright &copy; 2023. Đặng Thị Thanh Huyền.</p>
       <div class="social">
         <a href="http://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
         <a href="http://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
